@@ -83,6 +83,7 @@ dt %>%
   kbl() %>%
   kable_styling()
 ```
+![image](https://user-images.githubusercontent.com/31709147/212264549-488a49a2-b8c6-42b4-aff5-86fb805af3d0.png)
 
 The Data has 4 columns which are:
 
@@ -111,6 +112,7 @@ ggplot(data=df3, aes(fill=source,y=count, x=source)) +
                                                vjust = 0.5, 
                                                hjust=1))
 ```
+![image](https://user-images.githubusercontent.com/31709147/212264660-53913caf-191c-4b69-a10b-e08d86b1f958.png)
 
 The plot below shows the counts of different news categories for each news source
 
@@ -129,6 +131,7 @@ ggplot(data=df2, aes(fill=category, y=count, x=source)) +
                                                vjust = 0.5, 
                                                hjust=1))
 ```
+![image](https://user-images.githubusercontent.com/31709147/212264727-ac742c6b-cfb9-4232-904f-b1713e32489b.png)
 
 The final data exploratory plot shows the length of news article descriptions in our dataset
 
@@ -150,6 +153,8 @@ ggplot(data=DT, aes(fill = Length_Bin, y=Count, x=Length_Bin)) +
   theme(axis.text.x = element_text(angle = 90, 
                                                vjust = 0.5, 
                                                hjust=1))
+![image](https://user-images.githubusercontent.com/31709147/212264811-f8599993-230e-418f-aab2-853257c1cdc1.png)
+
 myData <- df
 ```
 
